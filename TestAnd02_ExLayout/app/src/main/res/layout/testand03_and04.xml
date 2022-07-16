@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="50dp"
+        android:text="버튼 1"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/btnn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="버튼 2"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/btnn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="버튼 3"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="버튼 4"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/btnn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="버튼 5"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="버튼 6"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="버튼 7"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="버튼 8"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/btnn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="버튼 9"
+        android:textSize="40dp" />
+</RelativeLayout>
