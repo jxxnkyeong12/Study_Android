@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--match_parent: 부모크기만큼 늘림-->
+    <!--wrap_content = 위젯의 기본크기 또는 위젯이 담고있는 내용의 크기에 따라서
+                    바뀜(가변적 사이즈)
+        id:@+id/ 리소스 경로 그리고나서 값(자동완선 이용하자)
+        TextView = 기본적인 크기가 0이야
+    -->
+        <Button
+            android:textSize="40dp"
+            android:text="노말 평범한 버튼"
+            android:id="@+id/btn1"
+            android:backgroundTint="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+        android:text="글씨안녕하세욤ㅁㅁㅁㅁㅁ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="마진 버튼"
+        android:id="@+id/btn2"
+        android:backgroundTint="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:padding="30dp"
+        android:text="패딩 버튼"
+        android:id="@+id/btn3"
+        android:backgroundTint="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--Gravity : 내부에 (중력) 정렬(내용) 내부 글씨들이 이동해~!
+                  right, left, top, bottom, center 를 자주써
+                  center | left . 연결도 가능함
+        Layout Gravity : 자체를 이동시키는거
+                        but bottom은 맨 맽으로 안내려가~
+    -->
+
+    <Button
+        android:gravity="center"
+        android:text="그래비티 버튼"
+        android:id="@+id/btn4"
+        android:backgroundTint="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:text="레이아웃 그레비티"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:gravity="bottom|right"
+        android:layout_gravity="right"
+        android:text="레이아웃 그레비티"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+
+</LinearLayout>
