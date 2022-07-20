@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/activity_main.xml" value="0.3473731884057971" />
-        <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/test_linearlayout.xml" value="0.5" />
+        <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/test_buttonevent.xml" value="0.3619791666666667" />
+        <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/test_linearlayout.xml" value="0.25" />
         <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/testand03_and04.xml" value="0.3473731884057971" />
         <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/testlinerlayout.xml" value="0.3473731884057971" />
+        <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/testlinerlayout2.xml" value="0.3619791666666667" />
         <entry key="..\:/Study_Android/workspace/TestAnd02_ExLayout/app/src/main/res/layout/testrelative.xml" value="0.3473731884057971" />
       </map>
     </option>

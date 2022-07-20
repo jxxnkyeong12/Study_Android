@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+<!--shpae는 모양만들기 (선, 동그라미, 네모 등)-->
+    <gradient
+        android:startColor="@color/notice_tv_color"
+        android:endColor="#FB7247"
+        android:centerColor="#B38E76"/>
+
+</shape>

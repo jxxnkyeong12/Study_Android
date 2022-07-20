@@ -1,0 +1,45 @@
+package com.example.testand02_exlayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    private static final String TAG = "KJK";
+    int count =0;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.test_buttonevent); //<-( 디자인 <-> 자바 연결 )
+        //모든 위젯은 View클래스를 상속받음 (View의 자식 클래스이다)
+        //기능은 자식클래스가 더 많아
+        //모든 위젯은 onClicklistner라는 (눌렀을때) 이벤트를 가지고 있다.
+        //Button button = new Button(); <-이건 새로운 버튼을 메모리에 올리는 거야
+        Button button = findViewById(R.id.btn1); //디자인에서 만들어놓은 버튼을 java버튼 객체에 넣음(초기화) id를 만들면 R클래스에 들어가. 그래서 R.id.이름
+        TextView text = findViewById(R.id.textView1); // 대부분 이름을 tv로 줘
+
+
+        button.setOnClickListener(new View.OnClickListener() { //귀야 딸칵 소리가 나면...!
+            @Override
+            public void onClick(View v) {
+                //버튼이 눌러졌을때의 처리 ( logd <-로그찍기 단축키)
+                //버튼을 클릭할때마다 버튼이 눌러졌습니다 1 ~10 누른 횟수만큼 증가하게 만들어보기
+                //사용자가 클릭하는거야. 컴퓨터가 아니라 / 안에다가 변수를 만들면 .. 버튼은 영원히 1이야
+                //r그리고 반복문은 사용을 하지 않는다!
+                //count++;
+                Log.d(TAG, ": 버튼이 눌러졌습니다 " + (count++));    //tag에 마우스 올려서 두번째꺼! para어쩌고.. 그리고 두번째 클릭하면 위에 상수가 만들어진다
+              //  text.setText(" KJK  :" + count);
+                text.setText(text.getText() +" "+ count); //string으로 바꿔줘야하니까 + " " +
+
+                button.setText("버튼눌린 횟수 : " + count); //setText는 여기에 들어있는 글자로 Text를 세팅함 //결과: 버튼 이라는 글자가 버튼눌린 횟수로 변해!
+            }
+        });
+
+    }
+}

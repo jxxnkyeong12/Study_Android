@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_inflate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레이아웃 인플레이트하기"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"/>
+        <!--1분의 1 은 백퍼센트!-->
+
+    <!--자식 태그 하나 추가! RelativeLayout-->
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:background="#BAB2B2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+
+
+</LinearLayout>

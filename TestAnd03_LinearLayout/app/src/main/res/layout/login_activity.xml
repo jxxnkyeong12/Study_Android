@@ -27,6 +27,7 @@
         android:textColor="#000"
         />
     <EditText
+        android:id="@+id/id"
         android:layout_weight="7"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -47,6 +48,7 @@
             android:textColor="#000"
             />
         <EditText
+            android:id="@+id/pw"
             android:layout_weight="7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -56,6 +58,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/logbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인"
@@ -63,6 +66,7 @@
         android:layout_margin="10dp"
         />
     <Button
+        android:id="@+id/joinbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="회원가입"
