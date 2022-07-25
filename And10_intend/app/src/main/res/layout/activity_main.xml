@@ -14,7 +14,35 @@
         android:layout_height="wrap_content"
         android:text="새화면 띄우기"/>
 
+    <Button
 
+        android:id="@+id/btn2"
+        android:backgroundTint="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TestActivity가기"/>
 
+    <Button
+
+        android:id="@+id/btn_call"
+        android:backgroundTint="#FF9800"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암시적 인텐트 전화 기능"/>
+
+    <Button
+
+        android:id="@+id/btn_internet"
+        android:backgroundTint="#004496"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암시적 인텐트 인터넷 기능"/>
+    <Button
+
+        android:id="@+id/btn_gps"
+        android:backgroundTint="#4CAF50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암시적 인텐트 지도 기능"/>
 
 </LinearLayout>
