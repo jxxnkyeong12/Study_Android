@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/flower2"
+            app:civ_border_color="#FFFFFF"/>
+
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+            android:textStyle="bold"
+            android:id="@+id/txtv_main1"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textSize="15dp"
+            android:text="화관"/>
+
+
+            <TextView
+                android:id="@+id/txtv_main2"
+                android:textSize="13dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="안녕안녕안녕"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/isMusic"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music"/>
+    </LinearLayout>
+
+
+</LinearLayout>
