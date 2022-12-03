@@ -1,2 +1,3 @@
 # Study_Android
-Android 깃!
+Android 기록
+(클론 프로젝트- 메가커피)
